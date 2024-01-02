@@ -75,7 +75,9 @@ function App() {
       </div>
       <div className="game-info">
         <div className="status">{status}</div>
-        <ol style={{ listStyle: "none" }}>{moves}</ol>
+        <ol className="history" style={{ listStyle: "none" }}>
+          {moves}
+        </ol>
       </div>
     </div>
   );
